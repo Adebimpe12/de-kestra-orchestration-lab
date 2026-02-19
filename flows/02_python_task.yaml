@@ -1,1 +1,13 @@
+id: python_test
+namespace: de.practice
+
+tasks:
+  - id: run_python
+    type: io.kestra.plugin.scripts.python.Script
+    script: |
+      import sys
+      import datetime
+
+      print("Python Version:", sys.version)
+      print("Time:", datetime.datetime.now())
 

@@ -1,1 +1,8 @@
+id: hello_world
+namespace: de.practice
+
+tasks:
+  - id: hello
+    type: io.kestra.plugin.core.log.Log
+    message: "Hello Data Engineer 🚀"
 
